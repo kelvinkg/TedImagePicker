@@ -19,7 +19,8 @@
     <application>
         <activity
             android:name=".TedImagePickerActivity"
-            android:theme="@style/TedImagePickerTheme" />
+            android:theme="@style/TedImagePickerTheme"
+            android:screenOrientation="landscape" />
 
         <activity
             android:name=".zoom.TedImageZoomActivity"
